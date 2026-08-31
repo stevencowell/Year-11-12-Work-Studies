@@ -16,6 +16,9 @@
   const reviewScope = `module:${moduleMeta.id}:review`;
   const previous = index > 0 ? `module-${String(index).padStart(2, '0')}.html` : '../index.html#modules';
   const next = index < window.WORK_STUDIES.modules.length - 1 ? `module-${String(index + 2).padStart(2, '0')}.html` : '../folio.html';
+  const nextModuleMeta = window.WORK_STUDIES.modules[index + 1] || null;
+  const nextSectionId = nextModuleMeta?.sections?.[0]?.[0] || null;
+  const nextResume = nextModuleMeta && nextSectionId ? `${next}#learning-${nextSectionId.toLowerCase()}` : next;
 
   document.title = `${moduleMeta.title} | Years 11–12 Work Studies`;
 
@@ -89,14 +92,14 @@
 
   const updateReview = () => {
     let completeCount = 0;
-    let lastStarted = module.sections[0];
+    let firstIncomplete = null;
     module.sections.forEach(section => {
       const state = sectionState(section);
       const answered = Object.keys(state.answers || {}).length;
       const words = runtime.wordCount(state.response);
       const started = answered > 0 || words > 0;
       const complete = answered === 10 && words >= 40;
-      if (started) lastStarted = section;
+      if (!complete && !firstIncomplete) firstIncomplete = section;
       if (complete) completeCount += 1;
       const label = document.querySelector(`[data-review-state="${section.id}"]`);
       if (label) label.textContent = complete ? 'Evidence saved · 10 questions + long response' : started ? `${answered}/10 answers · ${words} words saved` : 'Not started · 10 questions + long response';
@@ -105,8 +108,15 @@
     document.querySelector('[data-module-progress-bar]').style.width = `${percent}%`;
     document.querySelector('[data-module-progress-text]').textContent = `${completeCount} of ${module.sections.length} section packages have saved evidence.`;
     const resume = document.querySelector('[data-resume]');
-    resume.href = `#learning-${lastStarted.id.toLowerCase()}`;
-    runtime.write(reviewScope, { evidenceLabel: 'Formative learning evidence', completeCount, lastSectionId: lastStarted.id, updatedAt: new Date().toISOString() });
+    const resumeSection = firstIncomplete || module.sections[module.sections.length - 1];
+    if (completeCount === module.sections.length) {
+      resume.href = nextResume;
+      resume.textContent = nextModuleMeta ? `Continue to ${nextModuleMeta.id}` : 'Open My folio';
+    } else {
+      resume.href = `#learning-${resumeSection.id.toLowerCase()}`;
+      resume.textContent = 'Continue where I left off';
+    }
+    runtime.write(reviewScope, { evidenceLabel: 'Formative learning evidence', completeCount, lastSectionId: resumeSection.id, updatedAt: new Date().toISOString() });
   };
 
   module.sections.forEach(section => {
