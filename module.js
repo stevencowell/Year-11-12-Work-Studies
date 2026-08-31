@@ -240,6 +240,7 @@
 
   window.addEventListener('hashchange', () => openAndFocusPackage(window.location.hash, false));
   if (window.location.hash) openAndFocusPackage(window.location.hash, false);
+  window.addEventListener('load', () => openAndFocusPackage(window.location.hash, false), { once: true });
 
   updateReview();
 })();
