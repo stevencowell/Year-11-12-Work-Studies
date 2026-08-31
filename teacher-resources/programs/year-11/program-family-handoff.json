@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "program_id": "work-studies-stage6-2027-year-11-program",
+  "program_kind": "unit",
+  "source_binding": {
+    "source_map_id": "work-studies-source-map-v1.0",
+    "source_map_sha256": "5c9517dab5c7ada452d7919328a849012cc35e4d337b8615de569ee55df048a7",
+    "integration_baseline_id": "work-studies-integrated-baseline-v1.0",
+    "integration_baseline_sha256": "08268d9422cb4db63fdf750083ca6b9d0b567d11942a4dbe1aa5867eb9a7a232"
+  },
+  "course": {
+    "title": "Year 11 Work Studies — Teaching Program",
+    "family": "Work Studies",
+    "stage": "Stage 6",
+    "course": "11–12 Work Studies Stage 6 (CEC) Syllabus (2012)",
+    "version": "v1.0.0",
+    "duration": {
+      "value": 120,
+      "unit": "hours"
+    },
+    "site_state": "planned-public"
+  },
+  "syllabus": {
+    "family_key": "work-studies-stage-6-cec-2012",
+    "title": "11–12 Work Studies Stage 6 (CEC) Syllabus (2012)",
+    "version": "2012",
+    "official_url": "https://curriculum.nsw.edu.au/learning-areas/hsie/work-studies-stage-6-cec-2012/overview/course",
+    "status": "Current NSW syllabus",
+    "verified_date": "2026-08-31",
+    "implementation_basis": "Current official NSW Work Studies Stage 6 Content Endorsed Course syllabus",
+    "outcome_code_family": "Work Studies outcomes 1-9"
+  },
+  "palette": {
+    "mode": "new-distinct",
+    "accent": "#2F6B58",
+    "soft": "#F2F5EE",
+    "text": "#14232D",
+    "contrast_evidence": "#14232d on #f2f5ee and #ffffff, plus white on #2f6b58, meet WCAG AA for normal text; rechecked in the final rendered candidate."
+  },
+  "master_relationship": {
+    "state": "linked",
+    "master_program_id": "work-studies-stage6-2027-master-program",
+    "coverage_state": "current"
+  },
+  "teacher_resources": {
+    "route": "teacher-resources.html",
+    "slot_selector": "[data-program-family-slot=\"work-studies-program-family\"]",
+    "links": [
+      {
+        "label": "Teaching program PDF",
+        "artifact_role": "rendered-program",
+        "href": "teacher-resources/programs/year-11/teacher-program-v1.0.0.pdf"
+      },
+      {
+        "label": "Editable teaching program",
+        "artifact_role": "editable-program",
+        "href": "teacher-resources/programs/year-11/teacher-program-v1.0.0.docx"
+      }
+    ]
+  },
+  "artifacts": [
+    {
+      "role": "editable-program",
+      "path": "teacher-program-v1.0.0.docx",
+      "sha256": "4072bcd4ff5a15d804ec047973c3cc6c5255c0804cb560b4d794595d3b12c1e2"
+    },
+    {
+      "role": "rendered-program",
+      "path": "teacher-program-v1.0.0.pdf",
+      "sha256": "cb27567757bb4f38de6794f96fd534c02a2356508566a25b1a5513bb44448523"
+    },
+    {
+      "role": "alignment-manifest",
+      "path": "teacher-program-manifest-v1.0.0.json",
+      "sha256": "8b8f73fa8102e34bb09779ab145de0b7a05e93c44dfd3bbf3d00f0f0a0b6caa3"
+    },
+    {
+      "role": "site-map",
+      "path": "teacher-program-site-map-v1.0.0.json",
+      "sha256": "b4ea484467380275b9c8ea4afbcce98e24b0650df43c26d06e936cfd4ab2a08d"
+    },
+    {
+      "role": "delivery-register",
+      "path": "delivery-register-v1.0.0.docx",
+      "sha256": "80ee9c914f5853fad942af9415c257968eb48a5e9a4c375adf1eb2bf03154d5d"
+    }
+  ],
+  "library_card": {
+    "title": "Year 11 Work Studies — Teaching Program",
+    "family": "Work Studies",
+    "stage": "Stage 6",
+    "course": "11–12 Work Studies Stage 6 (CEC) Syllabus (2012)",
+    "durationLabel": "120 hours",
+    "version": "v1.0.0",
+    "syllabusAligned": true,
+    "pdf": "programs/years-11-12-work-studies/year-11/teacher-program-v1.0.0.pdf",
+    "docx": "programs/years-11-12-work-studies/year-11/teacher-program-v1.0.0.docx",
+    "manifest": "programs/years-11-12-work-studies/year-11/teacher-program-manifest-v1.0.0.json",
+    "syllabusTitle": "11–12 Work Studies Stage 6 (CEC) Syllabus (2012)",
+    "syllabusUrl": "https://curriculum.nsw.edu.au/learning-areas/hsie/work-studies-stage-6-cec-2012/overview/course",
+    "syllabusStatus": "Current NSW syllabus",
+    "syllabusVerified": "2026-08-31",
+    "masterNote": "Linked to work-studies-stage6-2027-master-program"
+  },
+  "registration": {
+    "state": "handoff-ready",
+    "canonical_library_url": "https://stevencowell.github.io/Main-Page/subject-program-library/"
+  },
+  "program_family": {
+    "family_id": "work-studies-stage6-2027-program-family",
+    "scope": "year-11",
+    "master_program_id": "work-studies-stage6-2027-master-program",
+    "members": [
+      "master",
+      "year-11",
+      "year-12"
+    ]
+  },
+  "teacher_to_confirm_register": {
+    "state": "retained",
+    "item_ids": [
+      "TTC-01",
+      "TTC-02",
+      "TTC-03",
+      "TTC-04",
+      "TTC-05",
+      "TTC-06",
+      "TTC-07"
+    ]
+  },
+  "validator_bindings": {
+    "teacher_program_validator": {
+      "name": "validate_teacher_program.py",
+      "sha256": "4a257abf7eb8e4d8e3b74f2ccce4e10000aa7a4cf0375c34969ef30e1739f6cb"
+    },
+    "program_family_validator": {
+      "name": "validate_program_family_handoff.py",
+      "sha256": "34090c42faa2956e9f8f86f669b8d7b49ef50678b8646bd6d8e2867ed3f301b6"
+    },
+    "state": "both-validators-required-before-commit"
+  }
+}

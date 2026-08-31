@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_id": "work-studies-assessment-manifest-v1.0.0",
+  "course_id": "years-11-12-work-studies",
+  "generated_at": "2026-08-31",
+  "source_map_id": "work-studies-source-map-v1.0",
+  "route": "assessment.html",
+  "status": "handoff-ready-with-year-12-confirmation-gap",
+  "course_assessment_context": {
+    "course_type": "Stage 6 Content Endorsed Course",
+    "assessment_mode": "school-based",
+    "external_examination": "none",
+    "hsc_component_totals": {
+      "knowledge_and_understanding_percent": 30,
+      "skills_percent": 70,
+      "total_percent": 100
+    },
+    "source_ids": ["SRC-OFFICIAL-SYLLABUS"],
+    "student_copy": "Use the schedule and notification for your own cohort. A date or weighting from another year is not current authority."
+  },
+  "source_records": [
+    {
+      "source_id": "SRC-Y11-ASSESSMENT-2026",
+      "source_type": "current official local cohort booklet snapshot",
+      "title": "Year 11 Assessment Policy & Schedules Booklet 2026",
+      "cohort": "Year 11 2026",
+      "course": "Work Studies",
+      "published_year": 2026,
+      "local_filename": "stage-01/sources/Year 11 Assessment Booklet 2026.pdf",
+      "page_count": 44,
+      "relevant_page": 37,
+      "sha256": "f2ecbc7468683c4ddbd9241fa6c6ba11d74dacf070bde02fd6ba9310d3c273c4",
+      "retrieved_at": "2026-08-31",
+      "visual_inspection": "PASS - complete Work Studies schedule page rendered and inspected",
+      "authority_status": "confirmed-current-local"
+    },
+    {
+      "source_id": "SRC-Y11-TASK1-2026",
+      "source_type": "current teacher-issued formal task notice snapshot",
+      "title": "2026 Preliminary Task 1 Work Studies - Career Progression Plan",
+      "cohort": "Year 11 2026",
+      "course": "Preliminary Work Studies",
+      "published_year": 2026,
+      "local_filename": "stage-01/sources/2026_PRELIMINARY_TASK_1_WORK STUDIES - Google Docs.pdf",
+      "page_count": 5,
+      "relevant_page": "1-5",
+      "sha256": "d9bbcb883acbead8e4f0a890ae527f4f7c6ed7f6452fe2de53624237f1ed3554",
+      "retrieved_at": "2026-08-31",
+      "visual_inspection": "PASS - all five pages rendered and inspected",
+      "authority_status": "confirmed-current-local-with-staff-confirm-items"
+    },
+    {
+      "source_id": "SRC-Y12-ASSESSMENT-2025",
+      "source_type": "historical teacher material",
+      "title": "2025 HSC Work Studies Assessment Booklet",
+      "cohort": "Year 12 2025",
+      "course": "Work Studies",
+      "published_year": 2025,
+      "local_filename": null,
+      "page_count": null,
+      "relevant_page": null,
+      "sha256": null,
+      "retrieved_at": null,
+      "visual_inspection": "NOT INSPECTED - no local snapshot present in stage-01/sources",
+      "authority_status": "historical-context-only",
+      "warning": "Not authority for any 2026 date, task, sequence, weighting, outcome, criterion or submission condition."
+    }
+  ],
+  "orientation": {
+    "confirmed_panel": {
+      "id": "assessment-y11-2026",
+      "route": "assessment.html#assessment-y11-2026",
+      "heading": "Year 11 - confirmed 2026 schedule",
+      "status_label": "Confirmed from the 2026 Year 11 booklet",
+      "source_id": "SRC-Y11-ASSESSMENT-2026"
+    },
+    "unconfirmed_panel": {
+      "id": "assessment-y12-2026",
+      "route": "assessment.html#assessment-y12-2026",
+      "heading": "Year 12 - 2026 details pending",
+      "status_label": "Check your teacher’s current instructions",
+      "student_copy": "No current 2026 Year 12 schedule or task notification is available in the approved local source pack. Do not use 2025 dates, sequence, weightings, outcomes or task details as 2026 instructions."
+    },
+    "historical_panel": {
+      "id": "assessment-y12-2025-history",
+      "route": "assessment.html#assessment-y12-2025-history",
+      "heading": "2025 Year 12 material - historical reference only",
+      "status_label": "Not current",
+      "student_copy": "This source can help staff recognise earlier course context, but it does not set any 2026 requirement."
+    }
+  },
+  "year_11_2026_schedule": {
+    "status_label": "Formal assessment - current schedule",
+    "source_id": "SRC-Y11-ASSESSMENT-2026",
+    "source_page": 37,
+    "component_totals_reconcile": true,
+    "tasks": [
+      {
+        "id": "ASM-Y11-2026-T1",
+        "task_number": 1,
+        "nature": "Career Progression Plan",
+        "due": "Term 1 Week 10",
+        "exact_due": "Monday 30 March 2026 by 8.50 am",
+        "exact_due_source_id": "SRC-Y11-TASK1-2026",
+        "outcomes": [1, 3, 4, 7, 8, 9],
+        "components": {
+          "knowledge_and_understanding_percent": 10,
+          "skills_percent": 20,
+          "total_weighting_percent": 30
+        },
+        "notice_id": "NOTICE-Y11-2026-T1-V1",
+        "notice_route": "assessment.html#notice-y11-2026-task-1",
+        "notice_status": "Formal assessment - current notification",
+        "notification_version": "source-snapshot-d9bbcb88",
+        "issue_date": "Monday 9 March 2026",
+        "task_detail_status": "confirmed-current-local",
+        "criteria_status": "confirmed-current-local - 30-mark rubric",
+        "template_status": "Check your teacher’s current standard template",
+        "assessment_instrument": "Professionally formatted individual report; 1200-1800 words; clear headings; minimum three reliable sources; six-part Career Progression Plan and 30-mark rubric, as set out in the issued notice.",
+        "staff_confirm_items": [
+          "The notice's AREA OF STUDY: DESIGN label appears inconsistent with Work Studies and must be confirmed before display.",
+          "The outcome descriptions in the notice differ from the exact official syllabus outcome wording; display the confirmed outcome numbers and official syllabus wording unless faculty confirms the notice paraphrases.",
+          "Recheck the notice's high-consequence absence wording against the current school handbook before reproducing it; the public page should link the current policy rather than paraphrase it."
+        ]
+      },
+      {
+        "id": "ASM-Y11-2026-T2",
+        "task_number": 2,
+        "nature": "Simulated Application & Workplace Interview",
+        "due": "Term 2 Week 8",
+        "exact_due": null,
+        "outcomes": [1, 2, 3, 5, 6, 7, 8, 9],
+        "components": {
+          "knowledge_and_understanding_percent": 10,
+          "skills_percent": 20,
+          "total_weighting_percent": 30
+        },
+        "notice_id": "NOTICE-Y11-2026-T2-DRAFT-0.1",
+        "notice_route": "assessment.html#notice-y11-2026-task-2",
+        "notice_status": "Notification not yet added",
+        "notification_version": "draft-0.1",
+        "issue_date": "Check your teacher’s current instructions",
+        "task_detail_status": "Check your teacher’s current instructions",
+        "criteria_status": "Check your teacher’s current instructions",
+        "template_status": "Check your teacher’s current standard template",
+        "assessment_instrument": "check your teacher’s current instructions - do not infer application format, interview conditions, evidence requirements, marks, exact date or submission method from the schedule title."
+      },
+      {
+        "id": "ASM-Y11-2026-T3",
+        "task_number": 3,
+        "nature": "Group Practical Task",
+        "due": "Term 3 Week 4",
+        "exact_due": null,
+        "outcomes": [1, 2, 5, 6, 7, 8, 9],
+        "components": {
+          "knowledge_and_understanding_percent": 10,
+          "skills_percent": 30,
+          "total_weighting_percent": 40
+        },
+        "notice_id": "NOTICE-Y11-2026-T3-DRAFT-0.1",
+        "notice_route": "assessment.html#notice-y11-2026-task-3",
+        "notice_status": "Notification not yet added",
+        "notification_version": "draft-0.1",
+        "issue_date": "Check your teacher’s current instructions",
+        "task_detail_status": "Check your teacher’s current instructions",
+        "criteria_status": "Check your teacher’s current instructions",
+        "template_status": "Check your teacher’s current standard template",
+        "assessment_instrument": "check your teacher’s current instructions - do not infer project identity, practical conditions, group or individual evidence, teacher observations, marks, exact date or submission method from the schedule title."
+      }
+    ]
+  },
+  "year_12_2026": {
+    "status_label": "Check your teacher’s current instructions",
+    "current_schedule_source": null,
+    "current_notification_sources": [],
+    "tasks": [],
+    "facts_that_must_not_be_inferred": [
+      "task number or sequence",
+      "task name or nature",
+      "term, week or exact date",
+      "weighting or component split",
+      "outcomes",
+      "criteria or marks",
+      "submission method",
+      "work-experience evidence requirements"
+    ],
+    "smallest_next_action": "Provide or approve the current 2026 Year 12 Work Studies schedule and issued task notifications."
+  },
+  "historical_2025_boundary": {
+    "source_id": "SRC-Y12-ASSESSMENT-2025",
+    "permitted_use": "Staff context and conflict recognition only.",
+    "prohibited_use": "Population of any 2026 student-facing assessment field.",
+    "display_rule": "If referenced, show the year and the words Historical reference only - not current beside it."
+  },
+  "acknowledgement": {
+    "student_label": "I have received and read this notification version",
+    "storage_key_pattern": "wwhs-work-studies-stage6:v1:assessment:ack:<notice-id>:<version>",
+    "stored_fields": ["notice_id", "version", "acknowledged", "local_timestamp"],
+    "boundary": "Browser-local read receipt only. It is not formal evidence, proof of submission, proof of understanding, attendance evidence or a replacement for the school's official process.",
+    "reset_effect": "Clearing site data or using another browser or device removes the local receipt; official task requirements do not change."
+  },
+  "policy_and_privacy": {
+    "policy_rule": "Link the current authorised school handbook or policy. Do not paraphrase high-consequence absence, zero-mark, malpractice, appeal or RoSA rules in this support dataset.",
+    "canonical_policy_link": "Check your teacher’s current instructions",
+    "teacher_only": ["answer keys", "assessor notes", "private staff instructions", "marks", "student adjustments", "individual submissions"],
+    "public_safe": ["confirmed schedule fields", "approved notification content", "honest notice status", "version-bound local acknowledgement boundary"]
+  },
+  "validation": {
+    "current_year_11_schedule_sources": 1,
+    "current_year_11_tasks": 3,
+    "year_11_weighting_total_percent": 100,
+    "year_11_knowledge_total_percent": 30,
+    "year_11_skills_total_percent": 70,
+    "current_full_notifications": 1,
+    "notification_placeholders": 2,
+    "year_12_2026_confirmed_tasks": 0,
+    "year_12_2026_invented_facts": 0,
+    "historical_sources_used_as_current": 0,
+    "source_pdfs_signature_valid": 2,
+    "source_pdfs_sha256_match_source_map": 2,
+    "source_pdf_relevant_pages_visually_inspected": 6,
+    "public_answer_keys": 0,
+    "status": "PASS_WITH_YEAR_12_TEACHER_CONFIRM_GAP"
+  }
+}

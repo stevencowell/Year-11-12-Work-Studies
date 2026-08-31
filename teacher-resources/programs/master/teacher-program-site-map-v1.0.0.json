@@ -1,0 +1,3019 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "work-studies-master-teacher-program-site-map-v1.0.0",
+  "version": "1.0.0",
+  "build_id": "work-studies-integrated-baseline-v1.0:08268d9422cb:master:program-v1.0.0",
+  "scope": "master",
+  "course_id": "years-11-12-work-studies",
+  "integration_baseline": {
+    "artifact_id": "work-studies-integrated-baseline-v1.0",
+    "sha256": "08268d9422cb4db63fdf750083ca6b9d0b567d11942a4dbe1aa5867eb9a7a232"
+  },
+  "teacher_resources": {
+    "route": "teacher-resources.html",
+    "slot_selector": "[data-program-family-slot=\"work-studies-program-family\"]",
+    "links": [
+      {
+        "label": "Teaching program PDF",
+        "artifact_role": "rendered-program",
+        "href": "teacher-resources/programs/master/teacher-program-v1.0.0.pdf"
+      },
+      {
+        "label": "Editable teaching program",
+        "artifact_role": "editable-program",
+        "href": "teacher-resources/programs/master/teacher-program-v1.0.0.docx"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "module_id": "C00",
+      "title": "Core: My Working Life",
+      "route": "modules/module-01.html",
+      "module_review": {
+        "site_ids": [
+          "c00-module-review"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "C00-S01",
+          "title": "Work in contemporary Australia",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "c00-s01-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "c00-s01-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "c00-s01-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "c00-s01-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "c00-s01-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "C00-S02",
+          "title": "Self-knowledge, pathways and career decisions",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "c00-s02-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "c00-s02-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "c00-s02-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "c00-s02-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "c00-s02-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "C00-S03",
+          "title": "Managing change and building a sustainable working life",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "c00-s03-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "c00-s03-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "c00-s03-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "c00-s03-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "c00-s03-media"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "M01",
+      "title": "In the Workplace",
+      "route": "modules/module-02.html",
+      "module_review": {
+        "site_ids": [
+          "m01-module-review"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "M01-S01",
+          "title": "Workplace structures, roles and relationships",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m01-s01-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m01-s01-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m01-s01-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m01-s01-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m01-s01-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M01-S02",
+          "title": "Rights, responsibilities and safe participation",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m01-s02-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m01-s02-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m01-s02-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m01-s02-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m01-s02-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M01-S03",
+          "title": "Workplace culture, performance and change",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m01-s03-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m01-s03-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m01-s03-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m01-s03-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m01-s03-media"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "M02",
+      "title": "Preparing Job Applications",
+      "route": "modules/module-03.html",
+      "module_review": {
+        "site_ids": [
+          "m02-module-review"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "M02-S01",
+          "title": "Reading opportunities and selection criteria",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m02-s01-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m02-s01-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m02-s01-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m02-s01-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m02-s01-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M02-S02",
+          "title": "Building evidence-based applications",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m02-s02-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m02-s02-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m02-s02-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m02-s02-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m02-s02-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M02-S03",
+          "title": "Interview preparation, performance and reflection",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m02-s03-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m02-s03-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m02-s03-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m02-s03-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m02-s03-media"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "M03",
+      "title": "Workplace Communication",
+      "route": "modules/module-04.html",
+      "module_review": {
+        "site_ids": [
+          "m03-module-review"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "M03-S01",
+          "title": "Purpose, audience and communication channels",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m03-s01-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m03-s01-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m03-s01-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m03-s01-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m03-s01-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M03-S02",
+          "title": "Professional spoken, written and digital communication",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m03-s02-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m03-s02-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m03-s02-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m03-s02-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m03-s02-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M03-S03",
+          "title": "Feedback, conflict and communication repair",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m03-s03-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m03-s03-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m03-s03-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m03-s03-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m03-s03-media"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "M04",
+      "title": "Teamwork and Enterprise Skills",
+      "route": "modules/module-05.html",
+      "module_review": {
+        "site_ids": [
+          "m04-module-review"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "M04-S01",
+          "title": "Team roles, trust and shared goals",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m04-s01-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m04-s01-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m04-s01-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m04-s01-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m04-s01-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M04-S02",
+          "title": "Initiative, problem-solving and decision-making",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m04-s02-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m04-s02-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m04-s02-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m04-s02-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m04-s02-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M04-S03",
+          "title": "Enterprise skills in authentic work",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m04-s03-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m04-s03-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m04-s03-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m04-s03-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m04-s03-media"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "M09",
+      "title": "Team Enterprise Project",
+      "route": "modules/module-06.html",
+      "module_review": {
+        "site_ids": [
+          "m09-module-review"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "M09-S01",
+          "title": "Defining the problem and project purpose",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m09-s01-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m09-s01-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m09-s01-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m09-s01-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m09-s01-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M09-S02",
+          "title": "Planning roles, resources, risks and communication",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m09-s02-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m09-s02-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m09-s02-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m09-s02-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m09-s02-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M09-S03",
+          "title": "Delivering, evaluating and presenting enterprise evidence",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m09-s03-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m09-s03-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m09-s03-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m09-s03-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m09-s03-media"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "M05",
+      "title": "Managing Work and Life Commitments",
+      "route": "modules/module-07.html",
+      "module_review": {
+        "site_ids": [
+          "m05-module-review"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "M05-S01",
+          "title": "Time, priorities and realistic boundaries",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m05-s01-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m05-s01-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m05-s01-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m05-s01-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m05-s01-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M05-S02",
+          "title": "Wellbeing, stress and support",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m05-s02-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m05-s02-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m05-s02-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m05-s02-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m05-s02-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M05-S03",
+          "title": "Adapting plans across changing life stages",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m05-s03-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m05-s03-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m05-s03-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m05-s03-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m05-s03-media"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "M06",
+      "title": "Personal Finance",
+      "route": "modules/module-08.html",
+      "module_review": {
+        "site_ids": [
+          "m06-module-review"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "M06-S01",
+          "title": "Pay, tax, superannuation and records",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m06-s01-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m06-s01-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m06-s01-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m06-s01-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m06-s01-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M06-S02",
+          "title": "Budgeting, banking, credit and saving",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m06-s02-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m06-s02-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m06-s02-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m06-s02-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m06-s02-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M06-S03",
+          "title": "Consumer decisions, risk and future planning",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m06-s03-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m06-s03-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m06-s03-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m06-s03-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m06-s03-media"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "M07",
+      "title": "Workplace Issues",
+      "route": "modules/module-09.html",
+      "module_review": {
+        "site_ids": [
+          "m07-module-review"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "M07-S01",
+          "title": "Recognising contemporary workplace issues",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m07-s01-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m07-s01-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m07-s01-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m07-s01-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m07-s01-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M07-S02",
+          "title": "Analysing impacts, evidence and perspectives",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m07-s02-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m07-s02-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m07-s02-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m07-s02-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m07-s02-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M07-S03",
+          "title": "Responding through policy, support and action",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m07-s03-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m07-s03-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m07-s03-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m07-s03-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m07-s03-media"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "M08",
+      "title": "Self-Employment",
+      "route": "modules/module-10.html",
+      "module_review": {
+        "site_ids": [
+          "m08-module-review"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "M08-S01",
+          "title": "From strengths and needs to a viable idea",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m08-s01-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m08-s01-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m08-s01-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m08-s01-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m08-s01-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M08-S02",
+          "title": "Business models, obligations and risk",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m08-s02-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m08-s02-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m08-s02-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m08-s02-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m08-s02-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M08-S03",
+          "title": "Planning, communicating and reviewing a micro-enterprise",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m08-s03-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m08-s03-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m08-s03-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m08-s03-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m08-s03-media"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "module_id": "M10",
+      "title": "Experiencing Work",
+      "route": "modules/module-11.html",
+      "module_review": {
+        "site_ids": [
+          "m10-module-review"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "M10-S01",
+          "title": "Preparing for workplace experience",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m10-s01-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m10-s01-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m10-s01-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m10-s01-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m10-s01-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M10-S02",
+          "title": "Observing, participating and recording evidence",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m10-s02-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m10-s02-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m10-s02-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m10-s02-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m10-s02-media"
+              ]
+            }
+          }
+        },
+        {
+          "section_id": "M10-S03",
+          "title": "Reflecting, transferring learning and planning next steps",
+          "destinations": {
+            "theory": {
+              "state": "mapped",
+              "site_ids": [
+                "m10-s03-theory"
+              ]
+            },
+            "knowledge_check": {
+              "state": "mapped",
+              "site_ids": [
+                "m10-s03-knowledge-check"
+              ]
+            },
+            "evidence": {
+              "state": "mapped",
+              "site_ids": [
+                "m10-s03-evidence"
+              ]
+            },
+            "activity": {
+              "state": "mapped",
+              "site_ids": [
+                "m10-s03-activity"
+              ]
+            },
+            "media": {
+              "state": "mapped",
+              "site_ids": [
+                "m10-s03-media"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "site_destinations": [
+    {
+      "site_id": "c00-presentation",
+      "route": "modules/module-01.html#c00-presentation",
+      "audience": "student",
+      "purpose": "Top-of-module PowerPoint access for Core: My Working Life.",
+      "module_id": "C00",
+      "category": "presentation"
+    },
+    {
+      "site_id": "c00-s01-theory",
+      "route": "modules/module-01.html#c00-s01-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Work in contemporary Australia.",
+      "module_id": "C00",
+      "category": "theory",
+      "section_id": "C00-S01"
+    },
+    {
+      "site_id": "c00-s01-knowledge-check",
+      "route": "modules/module-01.html#learning-c00-s01",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "C00",
+      "category": "knowledge_check",
+      "section_id": "C00-S01"
+    },
+    {
+      "site_id": "c00-s01-evidence",
+      "route": "modules/module-01.html#learning-c00-s01",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "C00",
+      "category": "evidence",
+      "section_id": "C00-S01"
+    },
+    {
+      "site_id": "c00-s01-activity",
+      "route": "modules/module-01.html#activity-c00-s01",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "C00",
+      "category": "activity",
+      "section_id": "C00-S01"
+    },
+    {
+      "site_id": "c00-s01-media",
+      "route": "modules/module-01.html#c00-s01-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "C00",
+      "category": "media",
+      "section_id": "C00-S01"
+    },
+    {
+      "site_id": "c00-s02-theory",
+      "route": "modules/module-01.html#c00-s02-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Self-knowledge, pathways and career decisions.",
+      "module_id": "C00",
+      "category": "theory",
+      "section_id": "C00-S02"
+    },
+    {
+      "site_id": "c00-s02-knowledge-check",
+      "route": "modules/module-01.html#learning-c00-s02",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "C00",
+      "category": "knowledge_check",
+      "section_id": "C00-S02"
+    },
+    {
+      "site_id": "c00-s02-evidence",
+      "route": "modules/module-01.html#learning-c00-s02",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "C00",
+      "category": "evidence",
+      "section_id": "C00-S02"
+    },
+    {
+      "site_id": "c00-s02-activity",
+      "route": "modules/module-01.html#activity-c00-s02",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "C00",
+      "category": "activity",
+      "section_id": "C00-S02"
+    },
+    {
+      "site_id": "c00-s02-media",
+      "route": "modules/module-01.html#c00-s02-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "C00",
+      "category": "media",
+      "section_id": "C00-S02"
+    },
+    {
+      "site_id": "c00-s03-theory",
+      "route": "modules/module-01.html#c00-s03-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Managing change and building a sustainable working life.",
+      "module_id": "C00",
+      "category": "theory",
+      "section_id": "C00-S03"
+    },
+    {
+      "site_id": "c00-s03-knowledge-check",
+      "route": "modules/module-01.html#learning-c00-s03",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "C00",
+      "category": "knowledge_check",
+      "section_id": "C00-S03"
+    },
+    {
+      "site_id": "c00-s03-evidence",
+      "route": "modules/module-01.html#learning-c00-s03",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "C00",
+      "category": "evidence",
+      "section_id": "C00-S03"
+    },
+    {
+      "site_id": "c00-s03-activity",
+      "route": "modules/module-01.html#activity-c00-s03",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "C00",
+      "category": "activity",
+      "section_id": "C00-S03"
+    },
+    {
+      "site_id": "c00-s03-media",
+      "route": "modules/module-01.html#c00-s03-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "C00",
+      "category": "media",
+      "section_id": "C00-S03"
+    },
+    {
+      "site_id": "c00-module-review",
+      "route": "modules/module-01.html#module-review",
+      "audience": "student",
+      "purpose": "Visible three-package completion checklist and direct review links.",
+      "module_id": "C00",
+      "category": "module_review"
+    },
+    {
+      "site_id": "m01-presentation",
+      "route": "modules/module-02.html#m01-presentation",
+      "audience": "student",
+      "purpose": "Top-of-module PowerPoint access for In the Workplace.",
+      "module_id": "M01",
+      "category": "presentation"
+    },
+    {
+      "site_id": "m01-s01-theory",
+      "route": "modules/module-02.html#m01-s01-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Workplace structures, roles and relationships.",
+      "module_id": "M01",
+      "category": "theory",
+      "section_id": "M01-S01"
+    },
+    {
+      "site_id": "m01-s01-knowledge-check",
+      "route": "modules/module-02.html#learning-m01-s01",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M01",
+      "category": "knowledge_check",
+      "section_id": "M01-S01"
+    },
+    {
+      "site_id": "m01-s01-evidence",
+      "route": "modules/module-02.html#learning-m01-s01",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M01",
+      "category": "evidence",
+      "section_id": "M01-S01"
+    },
+    {
+      "site_id": "m01-s01-activity",
+      "route": "modules/module-02.html#activity-m01-s01",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M01",
+      "category": "activity",
+      "section_id": "M01-S01"
+    },
+    {
+      "site_id": "m01-s01-media",
+      "route": "modules/module-02.html#m01-s01-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M01",
+      "category": "media",
+      "section_id": "M01-S01"
+    },
+    {
+      "site_id": "m01-s02-theory",
+      "route": "modules/module-02.html#m01-s02-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Rights, responsibilities and safe participation.",
+      "module_id": "M01",
+      "category": "theory",
+      "section_id": "M01-S02"
+    },
+    {
+      "site_id": "m01-s02-knowledge-check",
+      "route": "modules/module-02.html#learning-m01-s02",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M01",
+      "category": "knowledge_check",
+      "section_id": "M01-S02"
+    },
+    {
+      "site_id": "m01-s02-evidence",
+      "route": "modules/module-02.html#learning-m01-s02",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M01",
+      "category": "evidence",
+      "section_id": "M01-S02"
+    },
+    {
+      "site_id": "m01-s02-activity",
+      "route": "modules/module-02.html#activity-m01-s02",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M01",
+      "category": "activity",
+      "section_id": "M01-S02"
+    },
+    {
+      "site_id": "m01-s02-media",
+      "route": "modules/module-02.html#m01-s02-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M01",
+      "category": "media",
+      "section_id": "M01-S02"
+    },
+    {
+      "site_id": "m01-s03-theory",
+      "route": "modules/module-02.html#m01-s03-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Workplace culture, performance and change.",
+      "module_id": "M01",
+      "category": "theory",
+      "section_id": "M01-S03"
+    },
+    {
+      "site_id": "m01-s03-knowledge-check",
+      "route": "modules/module-02.html#learning-m01-s03",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M01",
+      "category": "knowledge_check",
+      "section_id": "M01-S03"
+    },
+    {
+      "site_id": "m01-s03-evidence",
+      "route": "modules/module-02.html#learning-m01-s03",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M01",
+      "category": "evidence",
+      "section_id": "M01-S03"
+    },
+    {
+      "site_id": "m01-s03-activity",
+      "route": "modules/module-02.html#activity-m01-s03",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M01",
+      "category": "activity",
+      "section_id": "M01-S03"
+    },
+    {
+      "site_id": "m01-s03-media",
+      "route": "modules/module-02.html#m01-s03-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M01",
+      "category": "media",
+      "section_id": "M01-S03"
+    },
+    {
+      "site_id": "m01-module-review",
+      "route": "modules/module-02.html#module-review",
+      "audience": "student",
+      "purpose": "Visible three-package completion checklist and direct review links.",
+      "module_id": "M01",
+      "category": "module_review"
+    },
+    {
+      "site_id": "m02-presentation",
+      "route": "modules/module-03.html#m02-presentation",
+      "audience": "student",
+      "purpose": "Top-of-module PowerPoint access for Preparing Job Applications.",
+      "module_id": "M02",
+      "category": "presentation"
+    },
+    {
+      "site_id": "m02-s01-theory",
+      "route": "modules/module-03.html#m02-s01-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Reading opportunities and selection criteria.",
+      "module_id": "M02",
+      "category": "theory",
+      "section_id": "M02-S01"
+    },
+    {
+      "site_id": "m02-s01-knowledge-check",
+      "route": "modules/module-03.html#learning-m02-s01",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M02",
+      "category": "knowledge_check",
+      "section_id": "M02-S01"
+    },
+    {
+      "site_id": "m02-s01-evidence",
+      "route": "modules/module-03.html#learning-m02-s01",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M02",
+      "category": "evidence",
+      "section_id": "M02-S01"
+    },
+    {
+      "site_id": "m02-s01-activity",
+      "route": "modules/module-03.html#activity-m02-s01",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M02",
+      "category": "activity",
+      "section_id": "M02-S01"
+    },
+    {
+      "site_id": "m02-s01-media",
+      "route": "modules/module-03.html#m02-s01-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M02",
+      "category": "media",
+      "section_id": "M02-S01"
+    },
+    {
+      "site_id": "m02-s02-theory",
+      "route": "modules/module-03.html#m02-s02-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Building evidence-based applications.",
+      "module_id": "M02",
+      "category": "theory",
+      "section_id": "M02-S02"
+    },
+    {
+      "site_id": "m02-s02-knowledge-check",
+      "route": "modules/module-03.html#learning-m02-s02",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M02",
+      "category": "knowledge_check",
+      "section_id": "M02-S02"
+    },
+    {
+      "site_id": "m02-s02-evidence",
+      "route": "modules/module-03.html#learning-m02-s02",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M02",
+      "category": "evidence",
+      "section_id": "M02-S02"
+    },
+    {
+      "site_id": "m02-s02-activity",
+      "route": "modules/module-03.html#activity-m02-s02",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M02",
+      "category": "activity",
+      "section_id": "M02-S02"
+    },
+    {
+      "site_id": "m02-s02-media",
+      "route": "modules/module-03.html#m02-s02-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M02",
+      "category": "media",
+      "section_id": "M02-S02"
+    },
+    {
+      "site_id": "m02-s03-theory",
+      "route": "modules/module-03.html#m02-s03-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Interview preparation, performance and reflection.",
+      "module_id": "M02",
+      "category": "theory",
+      "section_id": "M02-S03"
+    },
+    {
+      "site_id": "m02-s03-knowledge-check",
+      "route": "modules/module-03.html#learning-m02-s03",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M02",
+      "category": "knowledge_check",
+      "section_id": "M02-S03"
+    },
+    {
+      "site_id": "m02-s03-evidence",
+      "route": "modules/module-03.html#learning-m02-s03",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M02",
+      "category": "evidence",
+      "section_id": "M02-S03"
+    },
+    {
+      "site_id": "m02-s03-activity",
+      "route": "modules/module-03.html#activity-m02-s03",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M02",
+      "category": "activity",
+      "section_id": "M02-S03"
+    },
+    {
+      "site_id": "m02-s03-media",
+      "route": "modules/module-03.html#m02-s03-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M02",
+      "category": "media",
+      "section_id": "M02-S03"
+    },
+    {
+      "site_id": "m02-module-review",
+      "route": "modules/module-03.html#module-review",
+      "audience": "student",
+      "purpose": "Visible three-package completion checklist and direct review links.",
+      "module_id": "M02",
+      "category": "module_review"
+    },
+    {
+      "site_id": "m03-presentation",
+      "route": "modules/module-04.html#m03-presentation",
+      "audience": "student",
+      "purpose": "Top-of-module PowerPoint access for Workplace Communication.",
+      "module_id": "M03",
+      "category": "presentation"
+    },
+    {
+      "site_id": "m03-s01-theory",
+      "route": "modules/module-04.html#m03-s01-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Purpose, audience and communication channels.",
+      "module_id": "M03",
+      "category": "theory",
+      "section_id": "M03-S01"
+    },
+    {
+      "site_id": "m03-s01-knowledge-check",
+      "route": "modules/module-04.html#learning-m03-s01",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M03",
+      "category": "knowledge_check",
+      "section_id": "M03-S01"
+    },
+    {
+      "site_id": "m03-s01-evidence",
+      "route": "modules/module-04.html#learning-m03-s01",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M03",
+      "category": "evidence",
+      "section_id": "M03-S01"
+    },
+    {
+      "site_id": "m03-s01-activity",
+      "route": "modules/module-04.html#activity-m03-s01",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M03",
+      "category": "activity",
+      "section_id": "M03-S01"
+    },
+    {
+      "site_id": "m03-s01-media",
+      "route": "modules/module-04.html#m03-s01-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M03",
+      "category": "media",
+      "section_id": "M03-S01"
+    },
+    {
+      "site_id": "m03-s02-theory",
+      "route": "modules/module-04.html#m03-s02-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Professional spoken, written and digital communication.",
+      "module_id": "M03",
+      "category": "theory",
+      "section_id": "M03-S02"
+    },
+    {
+      "site_id": "m03-s02-knowledge-check",
+      "route": "modules/module-04.html#learning-m03-s02",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M03",
+      "category": "knowledge_check",
+      "section_id": "M03-S02"
+    },
+    {
+      "site_id": "m03-s02-evidence",
+      "route": "modules/module-04.html#learning-m03-s02",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M03",
+      "category": "evidence",
+      "section_id": "M03-S02"
+    },
+    {
+      "site_id": "m03-s02-activity",
+      "route": "modules/module-04.html#activity-m03-s02",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M03",
+      "category": "activity",
+      "section_id": "M03-S02"
+    },
+    {
+      "site_id": "m03-s02-media",
+      "route": "modules/module-04.html#m03-s02-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M03",
+      "category": "media",
+      "section_id": "M03-S02"
+    },
+    {
+      "site_id": "m03-s03-theory",
+      "route": "modules/module-04.html#m03-s03-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Feedback, conflict and communication repair.",
+      "module_id": "M03",
+      "category": "theory",
+      "section_id": "M03-S03"
+    },
+    {
+      "site_id": "m03-s03-knowledge-check",
+      "route": "modules/module-04.html#learning-m03-s03",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M03",
+      "category": "knowledge_check",
+      "section_id": "M03-S03"
+    },
+    {
+      "site_id": "m03-s03-evidence",
+      "route": "modules/module-04.html#learning-m03-s03",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M03",
+      "category": "evidence",
+      "section_id": "M03-S03"
+    },
+    {
+      "site_id": "m03-s03-activity",
+      "route": "modules/module-04.html#activity-m03-s03",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M03",
+      "category": "activity",
+      "section_id": "M03-S03"
+    },
+    {
+      "site_id": "m03-s03-media",
+      "route": "modules/module-04.html#m03-s03-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M03",
+      "category": "media",
+      "section_id": "M03-S03"
+    },
+    {
+      "site_id": "m03-module-review",
+      "route": "modules/module-04.html#module-review",
+      "audience": "student",
+      "purpose": "Visible three-package completion checklist and direct review links.",
+      "module_id": "M03",
+      "category": "module_review"
+    },
+    {
+      "site_id": "m04-presentation",
+      "route": "modules/module-05.html#m04-presentation",
+      "audience": "student",
+      "purpose": "Top-of-module PowerPoint access for Teamwork and Enterprise Skills.",
+      "module_id": "M04",
+      "category": "presentation"
+    },
+    {
+      "site_id": "m04-s01-theory",
+      "route": "modules/module-05.html#m04-s01-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Team roles, trust and shared goals.",
+      "module_id": "M04",
+      "category": "theory",
+      "section_id": "M04-S01"
+    },
+    {
+      "site_id": "m04-s01-knowledge-check",
+      "route": "modules/module-05.html#learning-m04-s01",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M04",
+      "category": "knowledge_check",
+      "section_id": "M04-S01"
+    },
+    {
+      "site_id": "m04-s01-evidence",
+      "route": "modules/module-05.html#learning-m04-s01",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M04",
+      "category": "evidence",
+      "section_id": "M04-S01"
+    },
+    {
+      "site_id": "m04-s01-activity",
+      "route": "modules/module-05.html#activity-m04-s01",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M04",
+      "category": "activity",
+      "section_id": "M04-S01"
+    },
+    {
+      "site_id": "m04-s01-media",
+      "route": "modules/module-05.html#m04-s01-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M04",
+      "category": "media",
+      "section_id": "M04-S01"
+    },
+    {
+      "site_id": "m04-s02-theory",
+      "route": "modules/module-05.html#m04-s02-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Initiative, problem-solving and decision-making.",
+      "module_id": "M04",
+      "category": "theory",
+      "section_id": "M04-S02"
+    },
+    {
+      "site_id": "m04-s02-knowledge-check",
+      "route": "modules/module-05.html#learning-m04-s02",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M04",
+      "category": "knowledge_check",
+      "section_id": "M04-S02"
+    },
+    {
+      "site_id": "m04-s02-evidence",
+      "route": "modules/module-05.html#learning-m04-s02",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M04",
+      "category": "evidence",
+      "section_id": "M04-S02"
+    },
+    {
+      "site_id": "m04-s02-activity",
+      "route": "modules/module-05.html#activity-m04-s02",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M04",
+      "category": "activity",
+      "section_id": "M04-S02"
+    },
+    {
+      "site_id": "m04-s02-media",
+      "route": "modules/module-05.html#m04-s02-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M04",
+      "category": "media",
+      "section_id": "M04-S02"
+    },
+    {
+      "site_id": "m04-s03-theory",
+      "route": "modules/module-05.html#m04-s03-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Enterprise skills in authentic work.",
+      "module_id": "M04",
+      "category": "theory",
+      "section_id": "M04-S03"
+    },
+    {
+      "site_id": "m04-s03-knowledge-check",
+      "route": "modules/module-05.html#learning-m04-s03",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M04",
+      "category": "knowledge_check",
+      "section_id": "M04-S03"
+    },
+    {
+      "site_id": "m04-s03-evidence",
+      "route": "modules/module-05.html#learning-m04-s03",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M04",
+      "category": "evidence",
+      "section_id": "M04-S03"
+    },
+    {
+      "site_id": "m04-s03-activity",
+      "route": "modules/module-05.html#activity-m04-s03",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M04",
+      "category": "activity",
+      "section_id": "M04-S03"
+    },
+    {
+      "site_id": "m04-s03-media",
+      "route": "modules/module-05.html#m04-s03-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M04",
+      "category": "media",
+      "section_id": "M04-S03"
+    },
+    {
+      "site_id": "m04-module-review",
+      "route": "modules/module-05.html#module-review",
+      "audience": "student",
+      "purpose": "Visible three-package completion checklist and direct review links.",
+      "module_id": "M04",
+      "category": "module_review"
+    },
+    {
+      "site_id": "m09-presentation",
+      "route": "modules/module-06.html#m09-presentation",
+      "audience": "student",
+      "purpose": "Top-of-module PowerPoint access for Team Enterprise Project.",
+      "module_id": "M09",
+      "category": "presentation"
+    },
+    {
+      "site_id": "m09-s01-theory",
+      "route": "modules/module-06.html#m09-s01-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Defining the problem and project purpose.",
+      "module_id": "M09",
+      "category": "theory",
+      "section_id": "M09-S01"
+    },
+    {
+      "site_id": "m09-s01-knowledge-check",
+      "route": "modules/module-06.html#learning-m09-s01",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M09",
+      "category": "knowledge_check",
+      "section_id": "M09-S01"
+    },
+    {
+      "site_id": "m09-s01-evidence",
+      "route": "modules/module-06.html#learning-m09-s01",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M09",
+      "category": "evidence",
+      "section_id": "M09-S01"
+    },
+    {
+      "site_id": "m09-s01-activity",
+      "route": "modules/module-06.html#activity-m09-s01",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M09",
+      "category": "activity",
+      "section_id": "M09-S01"
+    },
+    {
+      "site_id": "m09-s01-media",
+      "route": "modules/module-06.html#m09-s01-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M09",
+      "category": "media",
+      "section_id": "M09-S01"
+    },
+    {
+      "site_id": "m09-s02-theory",
+      "route": "modules/module-06.html#m09-s02-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Planning roles, resources, risks and communication.",
+      "module_id": "M09",
+      "category": "theory",
+      "section_id": "M09-S02"
+    },
+    {
+      "site_id": "m09-s02-knowledge-check",
+      "route": "modules/module-06.html#learning-m09-s02",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M09",
+      "category": "knowledge_check",
+      "section_id": "M09-S02"
+    },
+    {
+      "site_id": "m09-s02-evidence",
+      "route": "modules/module-06.html#learning-m09-s02",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M09",
+      "category": "evidence",
+      "section_id": "M09-S02"
+    },
+    {
+      "site_id": "m09-s02-activity",
+      "route": "modules/module-06.html#activity-m09-s02",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M09",
+      "category": "activity",
+      "section_id": "M09-S02"
+    },
+    {
+      "site_id": "m09-s02-media",
+      "route": "modules/module-06.html#m09-s02-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M09",
+      "category": "media",
+      "section_id": "M09-S02"
+    },
+    {
+      "site_id": "m09-s03-theory",
+      "route": "modules/module-06.html#m09-s03-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Delivering, evaluating and presenting enterprise evidence.",
+      "module_id": "M09",
+      "category": "theory",
+      "section_id": "M09-S03"
+    },
+    {
+      "site_id": "m09-s03-knowledge-check",
+      "route": "modules/module-06.html#learning-m09-s03",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M09",
+      "category": "knowledge_check",
+      "section_id": "M09-S03"
+    },
+    {
+      "site_id": "m09-s03-evidence",
+      "route": "modules/module-06.html#learning-m09-s03",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M09",
+      "category": "evidence",
+      "section_id": "M09-S03"
+    },
+    {
+      "site_id": "m09-s03-activity",
+      "route": "modules/module-06.html#activity-m09-s03",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M09",
+      "category": "activity",
+      "section_id": "M09-S03"
+    },
+    {
+      "site_id": "m09-s03-media",
+      "route": "modules/module-06.html#m09-s03-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M09",
+      "category": "media",
+      "section_id": "M09-S03"
+    },
+    {
+      "site_id": "m09-module-review",
+      "route": "modules/module-06.html#module-review",
+      "audience": "student",
+      "purpose": "Visible three-package completion checklist and direct review links.",
+      "module_id": "M09",
+      "category": "module_review"
+    },
+    {
+      "site_id": "m05-presentation",
+      "route": "modules/module-07.html#m05-presentation",
+      "audience": "student",
+      "purpose": "Top-of-module PowerPoint access for Managing Work and Life Commitments.",
+      "module_id": "M05",
+      "category": "presentation"
+    },
+    {
+      "site_id": "m05-s01-theory",
+      "route": "modules/module-07.html#m05-s01-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Time, priorities and realistic boundaries.",
+      "module_id": "M05",
+      "category": "theory",
+      "section_id": "M05-S01"
+    },
+    {
+      "site_id": "m05-s01-knowledge-check",
+      "route": "modules/module-07.html#learning-m05-s01",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M05",
+      "category": "knowledge_check",
+      "section_id": "M05-S01"
+    },
+    {
+      "site_id": "m05-s01-evidence",
+      "route": "modules/module-07.html#learning-m05-s01",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M05",
+      "category": "evidence",
+      "section_id": "M05-S01"
+    },
+    {
+      "site_id": "m05-s01-activity",
+      "route": "modules/module-07.html#activity-m05-s01",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M05",
+      "category": "activity",
+      "section_id": "M05-S01"
+    },
+    {
+      "site_id": "m05-s01-media",
+      "route": "modules/module-07.html#m05-s01-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M05",
+      "category": "media",
+      "section_id": "M05-S01"
+    },
+    {
+      "site_id": "m05-s02-theory",
+      "route": "modules/module-07.html#m05-s02-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Wellbeing, stress and support.",
+      "module_id": "M05",
+      "category": "theory",
+      "section_id": "M05-S02"
+    },
+    {
+      "site_id": "m05-s02-knowledge-check",
+      "route": "modules/module-07.html#learning-m05-s02",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M05",
+      "category": "knowledge_check",
+      "section_id": "M05-S02"
+    },
+    {
+      "site_id": "m05-s02-evidence",
+      "route": "modules/module-07.html#learning-m05-s02",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M05",
+      "category": "evidence",
+      "section_id": "M05-S02"
+    },
+    {
+      "site_id": "m05-s02-activity",
+      "route": "modules/module-07.html#activity-m05-s02",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M05",
+      "category": "activity",
+      "section_id": "M05-S02"
+    },
+    {
+      "site_id": "m05-s02-media",
+      "route": "modules/module-07.html#m05-s02-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M05",
+      "category": "media",
+      "section_id": "M05-S02"
+    },
+    {
+      "site_id": "m05-s03-theory",
+      "route": "modules/module-07.html#m05-s03-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Adapting plans across changing life stages.",
+      "module_id": "M05",
+      "category": "theory",
+      "section_id": "M05-S03"
+    },
+    {
+      "site_id": "m05-s03-knowledge-check",
+      "route": "modules/module-07.html#learning-m05-s03",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M05",
+      "category": "knowledge_check",
+      "section_id": "M05-S03"
+    },
+    {
+      "site_id": "m05-s03-evidence",
+      "route": "modules/module-07.html#learning-m05-s03",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M05",
+      "category": "evidence",
+      "section_id": "M05-S03"
+    },
+    {
+      "site_id": "m05-s03-activity",
+      "route": "modules/module-07.html#activity-m05-s03",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M05",
+      "category": "activity",
+      "section_id": "M05-S03"
+    },
+    {
+      "site_id": "m05-s03-media",
+      "route": "modules/module-07.html#m05-s03-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M05",
+      "category": "media",
+      "section_id": "M05-S03"
+    },
+    {
+      "site_id": "m05-module-review",
+      "route": "modules/module-07.html#module-review",
+      "audience": "student",
+      "purpose": "Visible three-package completion checklist and direct review links.",
+      "module_id": "M05",
+      "category": "module_review"
+    },
+    {
+      "site_id": "m06-presentation",
+      "route": "modules/module-08.html#m06-presentation",
+      "audience": "student",
+      "purpose": "Top-of-module PowerPoint access for Personal Finance.",
+      "module_id": "M06",
+      "category": "presentation"
+    },
+    {
+      "site_id": "m06-s01-theory",
+      "route": "modules/module-08.html#m06-s01-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Pay, tax, superannuation and records.",
+      "module_id": "M06",
+      "category": "theory",
+      "section_id": "M06-S01"
+    },
+    {
+      "site_id": "m06-s01-knowledge-check",
+      "route": "modules/module-08.html#learning-m06-s01",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M06",
+      "category": "knowledge_check",
+      "section_id": "M06-S01"
+    },
+    {
+      "site_id": "m06-s01-evidence",
+      "route": "modules/module-08.html#learning-m06-s01",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M06",
+      "category": "evidence",
+      "section_id": "M06-S01"
+    },
+    {
+      "site_id": "m06-s01-activity",
+      "route": "modules/module-08.html#activity-m06-s01",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M06",
+      "category": "activity",
+      "section_id": "M06-S01"
+    },
+    {
+      "site_id": "m06-s01-media",
+      "route": "modules/module-08.html#m06-s01-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M06",
+      "category": "media",
+      "section_id": "M06-S01"
+    },
+    {
+      "site_id": "m06-s02-theory",
+      "route": "modules/module-08.html#m06-s02-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Budgeting, banking, credit and saving.",
+      "module_id": "M06",
+      "category": "theory",
+      "section_id": "M06-S02"
+    },
+    {
+      "site_id": "m06-s02-knowledge-check",
+      "route": "modules/module-08.html#learning-m06-s02",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M06",
+      "category": "knowledge_check",
+      "section_id": "M06-S02"
+    },
+    {
+      "site_id": "m06-s02-evidence",
+      "route": "modules/module-08.html#learning-m06-s02",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M06",
+      "category": "evidence",
+      "section_id": "M06-S02"
+    },
+    {
+      "site_id": "m06-s02-activity",
+      "route": "modules/module-08.html#activity-m06-s02",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M06",
+      "category": "activity",
+      "section_id": "M06-S02"
+    },
+    {
+      "site_id": "m06-s02-media",
+      "route": "modules/module-08.html#m06-s02-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M06",
+      "category": "media",
+      "section_id": "M06-S02"
+    },
+    {
+      "site_id": "m06-s03-theory",
+      "route": "modules/module-08.html#m06-s03-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Consumer decisions, risk and future planning.",
+      "module_id": "M06",
+      "category": "theory",
+      "section_id": "M06-S03"
+    },
+    {
+      "site_id": "m06-s03-knowledge-check",
+      "route": "modules/module-08.html#learning-m06-s03",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M06",
+      "category": "knowledge_check",
+      "section_id": "M06-S03"
+    },
+    {
+      "site_id": "m06-s03-evidence",
+      "route": "modules/module-08.html#learning-m06-s03",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M06",
+      "category": "evidence",
+      "section_id": "M06-S03"
+    },
+    {
+      "site_id": "m06-s03-activity",
+      "route": "modules/module-08.html#activity-m06-s03",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M06",
+      "category": "activity",
+      "section_id": "M06-S03"
+    },
+    {
+      "site_id": "m06-s03-media",
+      "route": "modules/module-08.html#m06-s03-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M06",
+      "category": "media",
+      "section_id": "M06-S03"
+    },
+    {
+      "site_id": "m06-module-review",
+      "route": "modules/module-08.html#module-review",
+      "audience": "student",
+      "purpose": "Visible three-package completion checklist and direct review links.",
+      "module_id": "M06",
+      "category": "module_review"
+    },
+    {
+      "site_id": "m07-presentation",
+      "route": "modules/module-09.html#m07-presentation",
+      "audience": "student",
+      "purpose": "Top-of-module PowerPoint access for Workplace Issues.",
+      "module_id": "M07",
+      "category": "presentation"
+    },
+    {
+      "site_id": "m07-s01-theory",
+      "route": "modules/module-09.html#m07-s01-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Recognising contemporary workplace issues.",
+      "module_id": "M07",
+      "category": "theory",
+      "section_id": "M07-S01"
+    },
+    {
+      "site_id": "m07-s01-knowledge-check",
+      "route": "modules/module-09.html#learning-m07-s01",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M07",
+      "category": "knowledge_check",
+      "section_id": "M07-S01"
+    },
+    {
+      "site_id": "m07-s01-evidence",
+      "route": "modules/module-09.html#learning-m07-s01",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M07",
+      "category": "evidence",
+      "section_id": "M07-S01"
+    },
+    {
+      "site_id": "m07-s01-activity",
+      "route": "modules/module-09.html#activity-m07-s01",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M07",
+      "category": "activity",
+      "section_id": "M07-S01"
+    },
+    {
+      "site_id": "m07-s01-media",
+      "route": "modules/module-09.html#m07-s01-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M07",
+      "category": "media",
+      "section_id": "M07-S01"
+    },
+    {
+      "site_id": "m07-s02-theory",
+      "route": "modules/module-09.html#m07-s02-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Analysing impacts, evidence and perspectives.",
+      "module_id": "M07",
+      "category": "theory",
+      "section_id": "M07-S02"
+    },
+    {
+      "site_id": "m07-s02-knowledge-check",
+      "route": "modules/module-09.html#learning-m07-s02",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M07",
+      "category": "knowledge_check",
+      "section_id": "M07-S02"
+    },
+    {
+      "site_id": "m07-s02-evidence",
+      "route": "modules/module-09.html#learning-m07-s02",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M07",
+      "category": "evidence",
+      "section_id": "M07-S02"
+    },
+    {
+      "site_id": "m07-s02-activity",
+      "route": "modules/module-09.html#activity-m07-s02",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M07",
+      "category": "activity",
+      "section_id": "M07-S02"
+    },
+    {
+      "site_id": "m07-s02-media",
+      "route": "modules/module-09.html#m07-s02-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M07",
+      "category": "media",
+      "section_id": "M07-S02"
+    },
+    {
+      "site_id": "m07-s03-theory",
+      "route": "modules/module-09.html#m07-s03-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Responding through policy, support and action.",
+      "module_id": "M07",
+      "category": "theory",
+      "section_id": "M07-S03"
+    },
+    {
+      "site_id": "m07-s03-knowledge-check",
+      "route": "modules/module-09.html#learning-m07-s03",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M07",
+      "category": "knowledge_check",
+      "section_id": "M07-S03"
+    },
+    {
+      "site_id": "m07-s03-evidence",
+      "route": "modules/module-09.html#learning-m07-s03",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M07",
+      "category": "evidence",
+      "section_id": "M07-S03"
+    },
+    {
+      "site_id": "m07-s03-activity",
+      "route": "modules/module-09.html#activity-m07-s03",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M07",
+      "category": "activity",
+      "section_id": "M07-S03"
+    },
+    {
+      "site_id": "m07-s03-media",
+      "route": "modules/module-09.html#m07-s03-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M07",
+      "category": "media",
+      "section_id": "M07-S03"
+    },
+    {
+      "site_id": "m07-module-review",
+      "route": "modules/module-09.html#module-review",
+      "audience": "student",
+      "purpose": "Visible three-package completion checklist and direct review links.",
+      "module_id": "M07",
+      "category": "module_review"
+    },
+    {
+      "site_id": "m08-presentation",
+      "route": "modules/module-10.html#m08-presentation",
+      "audience": "student",
+      "purpose": "Top-of-module PowerPoint access for Self-Employment.",
+      "module_id": "M08",
+      "category": "presentation"
+    },
+    {
+      "site_id": "m08-s01-theory",
+      "route": "modules/module-10.html#m08-s01-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for From strengths and needs to a viable idea.",
+      "module_id": "M08",
+      "category": "theory",
+      "section_id": "M08-S01"
+    },
+    {
+      "site_id": "m08-s01-knowledge-check",
+      "route": "modules/module-10.html#learning-m08-s01",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M08",
+      "category": "knowledge_check",
+      "section_id": "M08-S01"
+    },
+    {
+      "site_id": "m08-s01-evidence",
+      "route": "modules/module-10.html#learning-m08-s01",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M08",
+      "category": "evidence",
+      "section_id": "M08-S01"
+    },
+    {
+      "site_id": "m08-s01-activity",
+      "route": "modules/module-10.html#activity-m08-s01",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M08",
+      "category": "activity",
+      "section_id": "M08-S01"
+    },
+    {
+      "site_id": "m08-s01-media",
+      "route": "modules/module-10.html#m08-s01-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M08",
+      "category": "media",
+      "section_id": "M08-S01"
+    },
+    {
+      "site_id": "m08-s02-theory",
+      "route": "modules/module-10.html#m08-s02-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Business models, obligations and risk.",
+      "module_id": "M08",
+      "category": "theory",
+      "section_id": "M08-S02"
+    },
+    {
+      "site_id": "m08-s02-knowledge-check",
+      "route": "modules/module-10.html#learning-m08-s02",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M08",
+      "category": "knowledge_check",
+      "section_id": "M08-S02"
+    },
+    {
+      "site_id": "m08-s02-evidence",
+      "route": "modules/module-10.html#learning-m08-s02",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M08",
+      "category": "evidence",
+      "section_id": "M08-S02"
+    },
+    {
+      "site_id": "m08-s02-activity",
+      "route": "modules/module-10.html#activity-m08-s02",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M08",
+      "category": "activity",
+      "section_id": "M08-S02"
+    },
+    {
+      "site_id": "m08-s02-media",
+      "route": "modules/module-10.html#m08-s02-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M08",
+      "category": "media",
+      "section_id": "M08-S02"
+    },
+    {
+      "site_id": "m08-s03-theory",
+      "route": "modules/module-10.html#m08-s03-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Planning, communicating and reviewing a micro-enterprise.",
+      "module_id": "M08",
+      "category": "theory",
+      "section_id": "M08-S03"
+    },
+    {
+      "site_id": "m08-s03-knowledge-check",
+      "route": "modules/module-10.html#learning-m08-s03",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M08",
+      "category": "knowledge_check",
+      "section_id": "M08-S03"
+    },
+    {
+      "site_id": "m08-s03-evidence",
+      "route": "modules/module-10.html#learning-m08-s03",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M08",
+      "category": "evidence",
+      "section_id": "M08-S03"
+    },
+    {
+      "site_id": "m08-s03-activity",
+      "route": "modules/module-10.html#activity-m08-s03",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M08",
+      "category": "activity",
+      "section_id": "M08-S03"
+    },
+    {
+      "site_id": "m08-s03-media",
+      "route": "modules/module-10.html#m08-s03-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M08",
+      "category": "media",
+      "section_id": "M08-S03"
+    },
+    {
+      "site_id": "m08-module-review",
+      "route": "modules/module-10.html#module-review",
+      "audience": "student",
+      "purpose": "Visible three-package completion checklist and direct review links.",
+      "module_id": "M08",
+      "category": "module_review"
+    },
+    {
+      "site_id": "m10-presentation",
+      "route": "modules/module-11.html#m10-presentation",
+      "audience": "student",
+      "purpose": "Top-of-module PowerPoint access for Experiencing Work.",
+      "module_id": "M10",
+      "category": "presentation"
+    },
+    {
+      "site_id": "m10-s01-theory",
+      "route": "modules/module-11.html#m10-s01-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Preparing for workplace experience.",
+      "module_id": "M10",
+      "category": "theory",
+      "section_id": "M10-S01"
+    },
+    {
+      "site_id": "m10-s01-knowledge-check",
+      "route": "modules/module-11.html#learning-m10-s01",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M10",
+      "category": "knowledge_check",
+      "section_id": "M10-S01"
+    },
+    {
+      "site_id": "m10-s01-evidence",
+      "route": "modules/module-11.html#learning-m10-s01",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M10",
+      "category": "evidence",
+      "section_id": "M10-S01"
+    },
+    {
+      "site_id": "m10-s01-activity",
+      "route": "modules/module-11.html#activity-m10-s01",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M10",
+      "category": "activity",
+      "section_id": "M10-S01"
+    },
+    {
+      "site_id": "m10-s01-media",
+      "route": "modules/module-11.html#m10-s01-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M10",
+      "category": "media",
+      "section_id": "M10-S01"
+    },
+    {
+      "site_id": "m10-s02-theory",
+      "route": "modules/module-11.html#m10-s02-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Observing, participating and recording evidence.",
+      "module_id": "M10",
+      "category": "theory",
+      "section_id": "M10-S02"
+    },
+    {
+      "site_id": "m10-s02-knowledge-check",
+      "route": "modules/module-11.html#learning-m10-s02",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M10",
+      "category": "knowledge_check",
+      "section_id": "M10-S02"
+    },
+    {
+      "site_id": "m10-s02-evidence",
+      "route": "modules/module-11.html#learning-m10-s02",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M10",
+      "category": "evidence",
+      "section_id": "M10-S02"
+    },
+    {
+      "site_id": "m10-s02-activity",
+      "route": "modules/module-11.html#activity-m10-s02",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M10",
+      "category": "activity",
+      "section_id": "M10-S02"
+    },
+    {
+      "site_id": "m10-s02-media",
+      "route": "modules/module-11.html#m10-s02-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M10",
+      "category": "media",
+      "section_id": "M10-S02"
+    },
+    {
+      "site_id": "m10-s03-theory",
+      "route": "modules/module-11.html#m10-s03-theory",
+      "audience": "student",
+      "purpose": "Source-grounded theory for Reflecting, transferring learning and planning next steps.",
+      "module_id": "M10",
+      "category": "theory",
+      "section_id": "M10-S03"
+    },
+    {
+      "site_id": "m10-s03-knowledge-check",
+      "route": "modules/module-11.html#learning-m10-s03",
+      "audience": "student",
+      "purpose": "Ten feedback-rich formative knowledge checks.",
+      "module_id": "M10",
+      "category": "knowledge_check",
+      "section_id": "M10-S03"
+    },
+    {
+      "site_id": "m10-s03-evidence",
+      "route": "modules/module-11.html#learning-m10-s03",
+      "audience": "student",
+      "purpose": "One scaffolded higher-order formative response with browser-local persistence.",
+      "module_id": "M10",
+      "category": "evidence",
+      "section_id": "M10-S03"
+    },
+    {
+      "site_id": "m10-s03-activity",
+      "route": "modules/module-11.html#activity-m10-s03",
+      "audience": "student",
+      "purpose": "Inline concept-linked applied learning activity and durable evidence prompt.",
+      "module_id": "M10",
+      "category": "activity",
+      "section_id": "M10-S03"
+    },
+    {
+      "site_id": "m10-s03-media",
+      "route": "modules/module-11.html#m10-s03-media",
+      "audience": "student",
+      "purpose": "Purposeful before-during-after non-video learning pathway.",
+      "module_id": "M10",
+      "category": "media",
+      "section_id": "M10-S03"
+    },
+    {
+      "site_id": "m10-module-review",
+      "route": "modules/module-11.html#module-review",
+      "audience": "student",
+      "purpose": "Visible three-package completion checklist and direct review links.",
+      "module_id": "M10",
+      "category": "module_review"
+    }
+  ],
+  "counts": {
+    "modules": 11,
+    "sections": 33,
+    "site_destinations": 187,
+    "module_reviews": 11
+  }
+}
